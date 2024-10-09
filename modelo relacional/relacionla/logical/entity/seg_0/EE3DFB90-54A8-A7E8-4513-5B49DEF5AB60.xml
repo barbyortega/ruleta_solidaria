@@ -1,0 +1,103 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="EE3DFB90-54A8-A7E8-4513-5B49DEF5AB60" name="Ruta">
+<createdBy>Barby</createdBy>
+<createdTime>2024-10-02 02:24:35 UTC</createdTime>
+<ownerDesignName>relacionla</ownerDesignName>
+<engineerTo>
+<item key="5A03D15D-CEFD-0600-C89D-880648089E94" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_ruta" id="BC8C55A2-3103-60D0-3323-2615A9D09377">
+<createdBy>Barby</createdBy>
+<createdTime>2024-10-02 02:24:50 UTC</createdTime>
+<ownerDesignName>relacionla</ownerDesignName>
+<engineerTo>
+<item key="5A03D15D-CEFD-0600-C89D-880648089E94" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Origen" id="E679FC7F-CC25-B228-32F0-D2D244B60E79">
+<createdBy>Barby</createdBy>
+<createdTime>2024-10-02 02:25:06 UTC</createdTime>
+<ownerDesignName>relacionla</ownerDesignName>
+<engineerTo>
+<item key="5A03D15D-CEFD-0600-C89D-880648089E94" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Destino" id="DCA447CB-0299-BF7B-9CC5-343938AFAAF4">
+<createdBy>Barby</createdBy>
+<createdTime>2024-10-02 02:25:25 UTC</createdTime>
+<ownerDesignName>relacionla</ownerDesignName>
+<engineerTo>
+<item key="5A03D15D-CEFD-0600-C89D-880648089E94" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="conductor_ID" id="40F5D23C-54E7-A1F6-407B-2EE85975C559">
+<createdBy>Barby</createdBy>
+<createdTime>2024-10-02 02:29:07 UTC</createdTime>
+<generatorID>AFD20A29-04EF-1DEF-638C-FF7A9F632689</generatorID>
+<ownerDesignName>relacionla</ownerDesignName>
+<engineerTo>
+<item key="5A03D15D-CEFD-0600-C89D-880648089E94" value="true"/>
+</engineerTo>
+<referedAttribute>55E8C939-F34A-4F30-F46D-6F57E17FEFFB</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="inst_ID" id="60734222-D3E9-7D8A-B8F8-E77FF5776834">
+<createdBy>Barby</createdBy>
+<createdTime>2024-10-02 02:29:19 UTC</createdTime>
+<generatorID>768C8BB9-F3EF-57DE-CA3C-CB973EFDC0F1</generatorID>
+<ownerDesignName>relacionla</ownerDesignName>
+<engineerTo>
+<item key="5A03D15D-CEFD-0600-C89D-880648089E94" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>A8D75B82-02F8-2E24-AFCD-8EA83A6E8E9B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="6E37BD5A-0921-707B-F92A-9BA5C88E0FF8" name="Ruta PK">
+<createdBy>Barby</createdBy>
+<createdTime>2024-10-02 02:25:01 UTC</createdTime>
+<ownerDesignName>relacionla</ownerDesignName>
+<engineerTo>
+<item key="5A03D15D-CEFD-0600-C89D-880648089E94" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>BC8C55A2-3103-60D0-3323-2615A9D09377</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

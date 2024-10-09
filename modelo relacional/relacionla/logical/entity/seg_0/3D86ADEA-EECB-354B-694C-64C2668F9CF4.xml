@@ -1,0 +1,116 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="3D86ADEA-EECB-354B-694C-64C2668F9CF4" name="vehiculo">
+<createdBy>Barby</createdBy>
+<createdTime>2024-10-02 00:29:02 UTC</createdTime>
+<ownerDesignName>relacionla</ownerDesignName>
+<engineerTo>
+<item key="5A03D15D-CEFD-0600-C89D-880648089E94" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="vehi_ID" id="19082622-EE79-962B-2261-5A50A59B5EE2">
+<createdBy>Barby</createdBy>
+<createdTime>2024-10-02 00:36:39 UTC</createdTime>
+<ownerDesignName>relacionla</ownerDesignName>
+<engineerTo>
+<item key="5A03D15D-CEFD-0600-C89D-880648089E94" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre_vehi" id="672C3546-120B-E056-0E4F-DC3B9CB73E83">
+<createdBy>Barby</createdBy>
+<createdTime>2024-10-02 00:43:07 UTC</createdTime>
+<ownerDesignName>relacionla</ownerDesignName>
+<engineerTo>
+<item key="5A03D15D-CEFD-0600-C89D-880648089E94" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="color" id="F1E89EBE-9CF0-FBF2-69BC-60B18588584A">
+<createdBy>Barby</createdBy>
+<createdTime>2024-10-02 00:49:07 UTC</createdTime>
+<ownerDesignName>relacionla</ownerDesignName>
+<engineerTo>
+<item key="5A03D15D-CEFD-0600-C89D-880648089E94" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="patente" id="8093853A-984E-65C9-A1AF-F963F3D0DD44">
+<createdBy>Barby</createdBy>
+<createdTime>2024-10-02 00:49:58 UTC</createdTime>
+<ownerDesignName>relacionla</ownerDesignName>
+<engineerTo>
+<item key="5A03D15D-CEFD-0600-C89D-880648089E94" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="conductor_ID" id="732B45DE-CBB1-0C1E-31E1-FAE59213EE7A">
+<createdBy>Barby</createdBy>
+<createdTime>2024-10-02 00:52:18 UTC</createdTime>
+<generatorID>673C38E4-716C-DDA2-99B2-417E13603370</generatorID>
+<ownerDesignName>relacionla</ownerDesignName>
+<engineerTo>
+<item key="5A03D15D-CEFD-0600-C89D-880648089E94" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>55E8C939-F34A-4F30-F46D-6F57E17FEFFB</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="inst_ID" id="28166049-CB04-5E2C-A492-C812D5628F3E">
+<createdBy>Barby</createdBy>
+<createdTime>2024-10-02 01:00:14 UTC</createdTime>
+<generatorID>09589D1E-860B-D1F5-D9CE-C2C75099AD5A</generatorID>
+<ownerDesignName>relacionla</ownerDesignName>
+<engineerTo>
+<item key="5A03D15D-CEFD-0600-C89D-880648089E94" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>A8D75B82-02F8-2E24-AFCD-8EA83A6E8E9B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="C6AE0731-0FBE-BC94-427E-8BECCC61CEA6" name="vehiculo PK">
+<createdBy>Barby</createdBy>
+<createdTime>2024-10-02 00:42:52 UTC</createdTime>
+<ownerDesignName>relacionla</ownerDesignName>
+<engineerTo>
+<item key="5A03D15D-CEFD-0600-C89D-880648089E94" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>19082622-EE79-962B-2261-5A50A59B5EE2</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

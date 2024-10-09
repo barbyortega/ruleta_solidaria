@@ -1,0 +1,107 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="75FA38DB-79F8-E54D-34D6-F478B6185688" name="Administrador">
+<createdBy>Barby</createdBy>
+<createdTime>2024-10-01 23:18:19 UTC</createdTime>
+<ownerDesignName>relacionla</ownerDesignName>
+<engineerTo>
+<item key="5A03D15D-CEFD-0600-C89D-880648089E94" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="admin_ID" id="4F58DBF0-EB88-404C-F377-C78707D58AD1">
+<createdBy>Barby</createdBy>
+<createdTime>2024-10-01 23:18:33 UTC</createdTime>
+<ownerDesignName>relacionla</ownerDesignName>
+<engineerTo>
+<item key="5A03D15D-CEFD-0600-C89D-880648089E94" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre_admin" id="16613B54-1882-6BAA-73C6-F9758B6759FB">
+<createdBy>Barby</createdBy>
+<createdTime>2024-10-01 23:18:49 UTC</createdTime>
+<ownerDesignName>relacionla</ownerDesignName>
+<engineerTo>
+<item key="5A03D15D-CEFD-0600-C89D-880648089E94" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="conductor_ID" id="6B57CF95-C3D1-B4DC-CFA3-381E08B84701">
+<createdBy>Barby</createdBy>
+<createdTime>2024-10-01 23:21:42 UTC</createdTime>
+<generatorID>730E6C30-EDAA-4D2B-2BD8-C252C4BE312B</generatorID>
+<ownerDesignName>relacionla</ownerDesignName>
+<engineerTo>
+<item key="5A03D15D-CEFD-0600-C89D-880648089E94" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>55E8C939-F34A-4F30-F46D-6F57E17FEFFB</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="alumno_ID" id="8A9B972F-9351-32E6-E8BB-2309F778378A">
+<createdBy>Barby</createdBy>
+<createdTime>2024-10-01 23:21:50 UTC</createdTime>
+<generatorID>6EE44C2F-0943-D150-C087-09712474BBFE</generatorID>
+<ownerDesignName>relacionla</ownerDesignName>
+<engineerTo>
+<item key="5A03D15D-CEFD-0600-C89D-880648089E94" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>8C55A835-4A75-1473-9461-5DC13C9B0013</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="vehi_ID" id="CFFDC9E3-F8AD-A071-CC94-4B5BB258B5D4">
+<createdBy>Barby</createdBy>
+<createdTime>2024-10-02 00:59:38 UTC</createdTime>
+<generatorID>63454DEE-4F4B-70E2-3245-AB1EF112EAFA</generatorID>
+<ownerDesignName>relacionla</ownerDesignName>
+<engineerTo>
+<item key="5A03D15D-CEFD-0600-C89D-880648089E94" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>19082622-EE79-962B-2261-5A50A59B5EE2</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="8F7757E0-7D6B-B7E8-41BB-9CBCCABDCE3F" name="Administrador PK">
+<createdBy>Barby</createdBy>
+<createdTime>2024-10-01 23:18:43 UTC</createdTime>
+<ownerDesignName>relacionla</ownerDesignName>
+<engineerTo>
+<item key="5A03D15D-CEFD-0600-C89D-880648089E94" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>4F58DBF0-EB88-404C-F377-C78707D58AD1</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
